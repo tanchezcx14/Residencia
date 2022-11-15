@@ -1,0 +1,403 @@
+.botones{
+    text-size-adjust: 5rem;
+}
+.servicio{
+    text-align: center;
+    font-size: 4rem;
+}
+.servicio2{
+    text-align: center;
+    font-size: 2rem;
+}
+a {
+    text-decoration: none;
+}
+main img {
+    display: inline-block;
+}
+main h2 {
+    font-size: 3.5rem;
+}
+
+header nav ul {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul li {
+    border: 3px solid transparent;
+    background-color:transparent;
+    font-size: 1.5rem;
+    padding: 1.3rem 2rem;
+}
+body {
+    background-color: whitesmoke;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    padding: 0.5rem;
+    grid-area: cabecera;
+}
+div img {
+    height: 3rem;
+    width: 5rem;
+}
+header img {
+    display: inline-flex;
+    width: 20rem;
+    height: 10rem;
+}
+.botones nav ul li a{
+    font-size: 1.5rem;
+}
+button{
+  height: 49px; 
+  padding-left: 10px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #000000; 
+  border-color: #ff0000; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 490px;   
+  cursor: pointer;
+}
+.bg-gradient {
+    background: #C9D6FF;
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF); 
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+    } 
+    ul li {
+      margin-bottom:1.9rem;
+    }
+    .pricing-divider {
+    border-radius: 20px;
+    background: #C64545;
+    padding: 1em 0 5em;
+    position: relative;
+    }
+    .green .pricing-divider {
+    background: #047e3d; 
+    }
+    .pricing-divider-img {
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 80px;
+    }
+    .deco-layer {
+        -webkit-transition: -webkit-transform 0.5s;
+        transition: transform 0.5s;
+    }
+    .btn-custom  {
+      background:gray; color:black; border-radius:20px
+    }
+    .img-float {
+      width:50px; position:absolute;top:-8.5rem;right:2rem
+    }
+    
+    .princing-item {
+      transition: all 150ms ease-out;
+    }
+    .princing-item:hover {
+      transform: scale(1.05);
+    }
+    .princing-item:hover .deco-layer--1 {
+      -webkit-transform: translate3d(15px, 0, 0);
+      transform: translate3d(15px, 0, 0);
+    }
+    .princing-item:hover .deco-layer--2 {
+      -webkit-transform: translate3d(-15px, 0, 0);
+      transform: translate3d(-15px, 0, 0);
+    }
+.parent {
+        display: grid;
+        background-color: red;
+        align-items: center;
+        grid-template-columns: repeat(3, 2fr) repeat(2, 1fr);
+        grid-template-rows: repeat(2, 2fr) repeat(3, 1fr);
+        grid-column-gap: 5rem;
+        grid-row-gap: 5rem;
+        }
+        .div1 { grid-area: 1 / 1 / 2 / 2; }
+        .div2 { grid-area: 1 / 2 / 2 / 3; }
+        .div3 { grid-area: 1 / 3 / 2 / 4; }
+        .div4 { grid-area: 2 / 1 / 3 / 2; }
+        .div5 { grid-area: 2 / 2 / 3 / 3; }
+        .div6 { grid-area: 2 / 3 / 3 / 4; }
+    
+@media (max-width: 575.98px){
+    html {
+        font-size: 15px;
+    }
+    header nav div ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    header nav ul li {
+        margin: 1rem;
+    }
+    main .videos {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+    main .videos iframe {
+        width: 10rem;
+        height: 11rem;
+        margin: 1rem 1rem;
+    }
+    main .imgs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .bass, main .drum, main .piano, main .guitars{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .bass img, main .drum img, main .paino img,main .guitars img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    .titulo h2 {
+        font-size: 1.8rem;
+    }
+    .carousel-item{
+        height: 25rem;
+    }
+    .carousel-item img{ 
+        height: 100% !important; 
+    }
+    .music h1 {
+        font-size: 3.2rem;
+        display: flex;
+        flex-direction: row;
+    }
+    footer a {
+        list-style: none;
+        color: black;
+        font-size: .5rem;
+    }
+    .redes{
+        display: grid;
+        grid-template-columns: repeat(3);
+        float: left;
+        vertical-align: middle;
+    }
+    .redes img {
+        width: 2rem;
+        height: 2rem;
+    }
+    .redes p {
+        text-decoration: none;
+    }
+    footer .final{
+        width: 21rem;
+    }
+    footer .mapa iframe{
+        width: 15rem;
+        height: 15rem;
+    }
+    .contact_form{  
+        width: 2rem; 
+        height: auto;
+        margin: 5rem auto;
+        border-radius: 1rem;  
+        padding-top: 2rem;
+        padding-bottom: 2rem;  
+        background-color: #fbfbfb; 
+        padding-left: 3rem; 
+      }
+ }
+ @media (max-width: 767.98px){
+    html {
+        font-size: 15px;
+    }
+    header nav div ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    header nav ul li {
+        margin: 1rem;
+    }
+    main .videos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    main .videos iframe {
+        width: auto;
+        height: auto;
+        margin: 1rem 1rem;
+    }
+    main .imgs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .imgs img {
+        height: 20rem;
+        width: 20rem;
+        margin: 1rem;
+    }
+    header img {
+        display: inline-flex;
+        width: 5rem;
+        height: 6rem;
+    }
+    main .bass, main .drum, main .piano, main .guitars{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .bass img, main .drum img, main .piano img, main .guitars img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    .titulo h2 {
+        font-size: 3rem;
+    }
+    .carousel-item{
+        height: 25rem;
+    }
+    .carousel-item img{ 
+            height: 100% !important; 
+    }
+    .music h1 {
+        font-size: 3.2rem;
+        display: flex;
+        flex-direction: row;
+    }
+    footer a {
+        list-style: none;
+        color: black;
+        font-size: .5rem;
+    }
+    .redes{
+        display: grid;
+        grid-template-columns: repeat(3);
+        float: left;
+        vertical-align: middle;
+    }
+    .redes img {
+        width: 2rem;
+        height: 2rem;
+    }
+    footer .final{
+        width: 21rem;
+    }
+    footer .mapa iframe{
+        width: 15rem;
+        height: 15rem;
+    }
+    .contact_form{  
+        width: auto; 
+        height: auto;
+        margin: auto;
+        padding-bottom: 2rem;  
+        background-color: #fbfbfb; 
+        padding-left: 3rem; 
+      }
+}
+@media (max-width: 991.98px){
+    html {
+        font-size: 15px;
+    }
+    header nav div ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    header nav ul li {
+        margin: 1rem;
+    }
+    main .videos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    main .videos iframe {
+        width: auto;
+        height: auto;
+        margin: 1rem 1rem;
+    }
+    main .imgs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .imgs img {
+        height: 20rem;
+        width: 20rem;
+        margin: 1rem;
+    }
+    header img {
+        display: inline-flex;
+        width: 5rem;
+        height: 6rem;
+    }
+    main .bass, main .guitars, main .drum, main .piano {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .bass img,main .guitars img ,main .drum img ,main .paino img  {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    .titulo h2 {
+        font-size: 3rem;
+    }
+    .carousel-item{
+        height: 20rem;
+    }
+    .carousel-item img{ 
+            height: 23rem ; 
+    }
+    .music h1 {
+        font-size: 3.2rem;
+        display: flex;
+        flex-direction: row;
+    }
+    footer a {
+        list-style: none;
+        color: black;
+        font-size: .5rem;
+    }
+    .redes{
+        display: grid;
+        grid-template-columns: repeat(3);
+        float: left;
+        vertical-align: middle;
+    }
+    .redes img {
+        width: 4rem;
+        height: 4rem;
+    }
+    footer .final{
+        width: 21rem;
+    }
+    footer .mapa iframe{
+        width: 15rem;
+        height: 15rem;
+    }
+    .contact_form{  
+        width: auto; 
+        height: auto;
+        margin: auto;
+        padding-bottom: 2rem;  
+        background-color: #fbfbfb; 
+        padding-left: 3rem; 
+      }
+}
